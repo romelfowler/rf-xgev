@@ -1,0 +1,57 @@
+/*
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+ */
+
+
+
+body p ,.ui-title-block ,
+.ui-title-inner ,
+.list-services__title ,
+.slider-grid__name ,
+.list-progress__inner ,
+.list-staff__info ,
+.staff-progress ,
+.ui-subtitle-block_mod-b ,
+.post .entry-main__inner,
+.reviews__title ,
+.reviews__text{
+    text-align: right !important;
+}
+
+
+html .owl-theme_mod-a .owl-controls {
+    left: 0;
+    right: auto;
+}
+
+
+.slider-grid__inner_mod-b .slider-grid__name {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
+    left: auto;
+}
+
+.list-progress__inner {
+    text-align: right;
+}
+
+.pix-lastnews-dark  .pull-right {
+    float: left!important;
+}
+
+html .post .entry-title, .post .entry-title a {
+    padding-right: 0;
+}
+
+html .post_mod-a:nth-child(odd) .entry-main__inner, html .post_mod-a:nth-child(odd) .entry-content {
+    padding-right: 0;
+    text-align: right;
+}
+
+.post .entry-content {
+    text-align: right;
+}

@@ -1,0 +1,30 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Autozone
+Version:	1.0
+Assigned to:	WebNik
+Primary use:	Autozone
+-------------------------------------------------------------------*/
+
+/* PLUGIN CSS */
+@import url('../assets/bootstrap/css/bootstrap.css');
+@import url('../assets/isotope/isotope.css');
+@import url('../assets/owl-carousel/owl.carousel.css');
+@import url('../assets/owl-carousel/owl.transitions.css');
+@import url('../assets/owl-carousel/owl.theme.css');
+@import url('../assets/prettyphoto/css/prettyPhoto.css');
+@import url('../assets/jelect/main.css');
+@import url('../assets/flexslider/flexslider.css');
+
+
+
+/* MAIN CSS */
+@import url('theme.css');
+@import url('sections.css');
+@import url('blog.css');
+@import url('sidebar.css');
+@import url('responsive.css');
+@import url('color.css');
+
+
